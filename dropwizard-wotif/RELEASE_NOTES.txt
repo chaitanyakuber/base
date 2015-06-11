@@ -1,0 +1,11 @@
+5.0.16 - Added MarkLogTask to allow for arbitrary event logging via curl -XPOST localhost/
+4.1.0  - Add dropwizard-wotif-client module to replace http-json-client
+           note that this was merged from branch dropwizard-0.7.0 branch to master
+4.0.10 - Fix: Response headers must be set before handling request.
+           note that this was merged from branch dropwizard-0.7.0 branch to master
+4.0.9  - For X-Opaque-ID correlation, allowable "private IP addresses" includes loopback (e.g. 127.0.0.1).
+4.0.8  - Updated request log format with dispatch time for app standards compliance.
+4.0.7  - Ensure X-Opaque-ID is only received and returned for private IP addresses.
+
+3.3.8  - Fix: Response headers must be set before handling request.
+3.3.7  - Ensure X-Opaque-ID is only received and returned for private IP addresses (including loopback (e.g. 127.0.0.1)).

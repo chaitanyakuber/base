@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suppressions PUBLIC "-//Puppy Crawl//DTD Suppressions 1.0//EN" "http://www.puppycrawl.com/dtds/suppressions_1_0.dtd">
+<suppressions>
+
+    <!-- Silly/broken rules -->
+    <suppress checks="MethodLength" files=".*.java" />
+    <suppress checks="ParameterAssignment" files=".*.java" />
+    <suppress checks="NPathComplexity" files=".*.java" />
+    <!--<suppress checks="ParameterNumber" files=".*.java" />-->
+    <!--<suppress checks="NestedIfDepth" files=".*.java" />-->
+    <!--<suppress checks="ExecutableStatementCount" files=".*.java" />-->
+    <!--<suppress checks="InnerAssignment" files=".*" />-->
+    <!--<suppress checks="ModifiedControlVariable" files=".*.java" />-->
+    <!--<suppress checks="BooleanExpressionComplexity" files=".*.java" />-->
+    <!--<suppress checks="EmptyBlock" files=".*.java" />-->
+    <!--<suppress checks="MemberName" files=".*.java" />-->
+    <!--<suppress checks="LocalVariableName" files=".*.java" />-->
+    <!--<suppress checks="ParameterName" files=".*.java" />-->
+    <!--<suppress checks="MethodName" files=".*.java" />-->
+    <!--<suppress checks="CyclomaticComplexity" files=".*.java" />-->
+    <!--<suppress checks="IllegalTokenText" files=".*.java" />-->
+    <!--<suppress checks="RegexpHeader" files=".*.java" />-->
+
+    <!-- Tests -->
+    <suppress checks="LineLength" files=".*Test.java" />
+    <suppress checks="AvoidStarImport" files=".*Test.java" />
+
+</suppressions>

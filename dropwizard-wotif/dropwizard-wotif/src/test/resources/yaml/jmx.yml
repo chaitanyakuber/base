@@ -1,0 +1,7 @@
+registryPort: 9086
+serverPort: 9087
+readOnlyUsername: readonly
+readOnlyPassword: readonlypassword
+readWriteUsername: readwrite
+readWritePassword: readwritepassword
+

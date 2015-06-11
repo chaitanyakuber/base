@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>dropwizard-wotif-master</artifactId>
+        <groupId>com.wotifgroup.dropwizard</groupId>
+        <version>5.0.19-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>dropwizard-wotif-featureswitch</artifactId>
+
+    <properties>
+        <wotif.featureservice.version>1.1.1-SNAPSHOT</wotif.featureservice.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.wotifgroup.dropwizard</groupId>
+            <artifactId>dropwizard-wotif</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.dropwizard</groupId>
+            <artifactId>dropwizard-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.wotifgroup</groupId>
+            <artifactId>feature-service</artifactId>
+            <version>${wotif.featureservice.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>log4j</groupId>
+                    <artifactId>log4j</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+    </dependencies>
+
+</project>

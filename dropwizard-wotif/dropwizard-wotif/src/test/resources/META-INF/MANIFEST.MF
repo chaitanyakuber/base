@@ -1,0 +1,3 @@
+Project-Group-Id: com.wotifgroup
+Project-Artifact-Id: test
+Project-Version: 1.0

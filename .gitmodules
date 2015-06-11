@@ -1,0 +1,6 @@
+[submodule "zkfss"]
+	path = zkfss
+	url = git@github.com:lazjen/zkfss.git
+[submodule "logutils"]
+	path = logutils
+	url = git@github.com:wotifgroup/wotif-logutils.git
